@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: darkseagreen;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* parent */
+.announcement {
+    background-color: darkgoldenrod;
+    height: 400px;
+    position: relative;
+    margin-top: 68px;
+}
+
+/* child */
+.announcement h2 {
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    font-size: 60px;
+}
+
+.announcement h2:hover {
+    color: white;
+}
+
+input:focus {
+    border: 3px solid red;
+}
+
+.main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 20px;
+}
+
+.main p {
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+p.highlight {
+    background-color: lawngreen;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
